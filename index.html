@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Joanchen</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon (1).ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"/>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="css/images/cloud.png" alt="cloud-img" />
+      <h1>I'm Joan</h1>
+      <h2>A <span class="pro">Pro</span>grammer</h2>
+      <img class="bottom-cloud" src="css/images/cloud.png" alt="cloud-img" />
+      <img src="css/images/mountain.png" alt="mountain-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          src="css/images/25ca648d-8982-4bfd-ba0a-e6c94d061330-modified (1).png"
+          alt="joanchen-img"
+          width="300px"
+        />
+        <h2>Hello.</h2>
+        <p class="intro">
+          I'm a highschool student from Medan, Indonesia. I have a passion for
+          baking and love to watch movie.
+        </p>
+      </div>
+      <hr />
+      <div class="hobbies">
+        <h2>My Hobbies.</h2>
+        <!-- outer wrapper -->
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            margin: 0 auto;
+          "
+        >
+          <div
+            style="
+              display: flex;
+              width: 100%;
+              flex-wrap: wrap;
+              margin-bottom: 10%;
+            "
+          >
+            <!-- image stranger things -->
+            <div style="flex-basis: 30%">
+              <img
+                src="css/images/Stranger_Things_season_3-modified.png"
+                alt="strangerthings-img"
+              />
+            </div>
+
+            <!-- description about strnafger styring -->
+            <div style="text-align: left; flex-basis: 70%">
+              <h3>Netflix</h3>
+              <p>
+                I love to watch Netflix, one of my favorite TV Shows is Stranger
+                Things. the show is about When a young boy vanishes, a small
+                town uncovers a mystery involving secret experiments, terrifying
+                supernatural forces and one strange little girl.
+              </p>
+            </div>
+          </div>
+
+          <div
+            style="
+              display: flex;
+              flex-direction: row-reverse;
+              width: 100%;
+              flex-wrap: wrap;
+            "
+          >
+            <!--  -->
+            <div style="flex-basis: 30%">
+              <img
+                src="css/images/189765164d31289540d328296c72b433-modified.png"
+                alt="kuromi-img"
+              />
+            </div>
+
+            <!--  -->
+            <div style="text-align: right; flex-basis: 70%">
+              <h3>kuromi</h3>
+              <p>
+                Kuromi is a tomboy, but behind her tough appearance, she is
+                actually very girly. She enjoys writing in her diary and reading
+                romance novels.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>if you love Stranger things and Kuromi as much as I do.</h3>
+        <p class="contact-massage">
+          Love Stranger Things as much as I do ? We can sit and talk about
+          Stranger Things all day long! and have a cup of coffee while talking.
+        </p>
+        <a class="btn btn-primary" href="mailto:joanchen654@gmail.com">Contact Me</a>
+        <a href="mailto:joanchen654@gmail.com">
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="icon"
+        href="https://instagram.com/joaannn_?igshid=ZDdkNTZiNTM="
+      >
+        <span><i style="font-size: 32px" class="fab fa-instagram"></i></span>
+      </a>
+
+      <a
+        class="icon"
+        href="https://www.snapchat.com/add/joejowann?share_id=VtN4Np44VaY&locale=en-US"
+      >
+        <span><i style="font-size: 32px;" class="fab fa-snapchat"></i></span>
+      </a>
+
+      <a class="icon" href="http://tiktok.com/@joedumps">
+        <span><i style="font-size: 32px;" class="fab fa-tiktok"></i></span>
+      </a>
+
+      <button onclick="SayHallo()">Click It</button>
+      <script>
+        function SayHallo() {
+          var name = prompt("What is your name?");
+          alert("Hallo " + name);
+        }
+      </script>
+      <p>©2022 Joanchen.</p>
+    </div>
+  </body>
+</html>
